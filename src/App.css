@@ -1,0 +1,256 @@
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  background-image: url(C:\Users\piyus\Desktop\Assignment\quiz-app\src\Images\img2.jpg);
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 50%; /* Adjusted for responsiveness */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.container2 {
+  max-width: 90%; /* Adjusted for responsiveness */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-image: url(C:\Users\piyus\Desktop\Assignment\quiz-app\src\Images\img3.jpg);
+  background-size: cover; /* Ensures the background image covers the container */
+}
+
+.container1 {
+  max-width: 50%; /* Adjusted for responsiveness */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #E3EEEF;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+ 
+}
+
+
+/* Common styles for containers */
+.container, .container1, .container2 {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* General styles */
+h1, h2 {
+  font-size: 2rem; /* Adjusted for responsiveness */
+  margin-bottom: 1.5rem; /* Adjusted for responsiveness */
+  color: #333333;
+  text-align: center;
+}
+
+.timer {
+  font-size: 1.6rem; /* Adjusted for responsiveness */
+  margin-bottom: 20px;
+  color: #555555;
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  padding: 12px 24px;
+  font-size: 1.2rem; /* Adjusted for responsiveness */
+  background-color: #ff6b6b;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit-button:hover {
+  background-color: #ff4040;
+  transform: scale(1.05);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .timer {
+    font-size: 1.4rem;
+  }
+
+  .submit-button {
+    font-size: 1rem;
+    
+  }
+  .image-container img {
+    width: 80%; /* Set the image width to 100% of its container on small screens */
+    height: auto; /* Ensure aspect ratio is maintained */
+  }
+  .container{
+    max-width: 80%;
+  }
+  
+  .footer{
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #2c3e50; /* Dark blue color */
+  color: #fff; /* White text color */
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  padding:10px 0;
+  
+  }
+  .footer2{
+    background-position: fixed;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #2c3e50; /* Dark blue color */
+    color: #fff; /* White text color */
+    left: 0;
+    bottom: 0;
+    
+    padding:10px 0;
+    
+  }
+
+  .container2{
+    max-width: 85%;
+    
+  }
+  
+}
+.congrats-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.congrats-message h2 {
+  font-size: 36px;
+  color: #4CAF50; /* Green color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow effect */
+}
+
+.quiz-summary p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #777; /* Dark gray color */
+}
+
+.answers-section {
+  margin-top: 20px;
+}
+
+.answers-list {
+  list-style: none;
+  padding: 0;
+}
+
+.answers-list li {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333; /* Dark color for answers */
+}
+
+.answers-list li:before {
+  content: '•'; /* Bullet symbol */
+  color: #4CAF50; /* Green color */
+  margin-right: 5px;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 90%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+
+.footer{
+  width: 100%;
+  bottom: 0;
+  background-position: fixed;
+  left: 0;
+  text-align: center;
+  
+  background-color: #2c3e50; /* Dark blue color */
+  color: #fff; /* White text color */
+  padding: 10px 0;
+}
+
+.footer2{
+  background-position: fixed;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #2c3e50; /* Dark blue color */
+  color: #fff; /* White text color */
+  left: 0;
+  bottom: 0;
+  
+  padding:10px 0;
+  
+}
+.footer3{
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  text-align: center;
+  
+  background-color: #2c3e50; /* Dark blue color */
+  color: #fff; /* White text color */
+  padding: 10px 0;
+}
