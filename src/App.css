@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f9fa;
-  background-image: url(C:\Users\piyus\Desktop\Assignment\quiz-app\src\Images\img2.jpg);
+  background-image: url(C:\Users\piyus\Documents\Quiz-App\src\Images\img2.jpg);
   background-attachment: fixed;
 }
 
@@ -24,7 +24,7 @@ body {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background-image: url(C:\Users\piyus\Desktop\Assignment\quiz-app\src\Images\img3.jpg);
+  background-image: url(C:\Users\piyus\Documents\Quiz-App\src\Images\img3.jpg);
   background-size: cover; /* Ensures the background image covers the container */
 }
 
