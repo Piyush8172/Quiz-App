@@ -2,7 +2,9 @@
 <h1>
   This Project is created for SpritEra Coderush Web Contest.
 </h1>
-  
+  <strong> 
+    Quiz-App
+  </strong>
 <pre>
 Problem Statements:
 Page 1
